@@ -1,9 +1,29 @@
 .header-bg{
     background-color: #FFF9F4;
+    padding-bottom: 100px;
 }
-.nav-fonts{
-    font-family: 'Roboto', sans-serif;
+.manu-items li{
+    margin: 0 0 0 30px;
     font-weight: 700;
+}
+.roboto-fonts{
+    font-family: 'Roboto', sans-serif;
+    color: #3C3C3C;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+
+.bebas-fonts{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.bebas-fonts h2{
+    font-size: 48px;
+}
+.bebas-fonts span{
+    color: #FA804C;
 }
 .my-logo{
 
@@ -11,8 +31,75 @@
 .my-logo img{
     width: 100%;
 }
+.nike-img{
+    
+}
+.nike-img img{
+    width: 100%;
+}
+.nike-react-sec{
+    padding-top: 80px;
+}
+.nike-react-sec h1{
+    font-size: 80px;
+    line-height: 80px;
+}
+.btn-buynow{
+    background-color:#3c4deb;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+    width: 170px;
+    border-radius: 10px;
+}
+.btn-buynow i{
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.main-area{
+    padding: 50px 0;
+}
+.main-area section{
+    padding-bottom: 60px;
+}
+.casual-shoes{
+    border: none;
+    border-radius: 1.25rem!important;
+}
+
+.casual-shoes img{
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    width: 100%;
+}
+.casual-shoes h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+.casual-shoes h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: #FA804C;
+    margin-bottom: 0;
+}
+.card-padding{
+    padding: 20px 0 0 0;
+}
+.shoe-area{
+    padding-bottom: 20px;
+}
+.cart-mobile{
+    padding: 58px 0;
+}
 
 
-font-family: 'Roboto', sans-serif;
 
-font-family: 'Bebas Neue', cursive;
+
+
+
+
+
+
+/* color: #3c4deb; */
