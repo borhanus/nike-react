@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Nike React</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,10 +14,10 @@
 
 <body>
   <header class="header-bg">
-    <section class="container">
+    <section class="container" id="home">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand my-logo col-6 col-md-3" href="#"><img src="Logo, Icon/Logo.png" alt=""></a>
+          <a class="navbar-brand my-logo col-6 col-md-3" href="index.html"><img src="Logo, Icon/Logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,16 +25,16 @@
           <div class="collapse navbar-collapse justify-content-end roboto-fonts manu-items" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#product">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
+                <a class="nav-link" href="#aboutus">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">Contact Us</a>
+                <a class="nav-link " href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@
 
 
   <main class="main-area">
-    <section class="container">
+    <section class="container" id="product">
       <h2 class="bebas-fonts shoe-area">CASUAL SHOES</h2>
       <div class="row d-flex justify-content-between roboto-fonts">
         <div class="card casual-shoes shadow p-3 mb-5 bg-white rounded" style="width: 25rem;">
@@ -155,7 +155,7 @@
 
 
 
-    <section class="container">
+    <section class="container" id="aboutus">
       <div class="row">
         <div class="col-md-6 ">
           <div class="card custom-card shadow p-3 mb-3 bg-white casual-shoes" style="max-width: 540px;">
@@ -212,11 +212,22 @@
 
 
   </main>
+  <footer id="contact" class="container">
+    <section>
+      <h2 class="bebas-fonts">Stay Connected</h2>
+      <ul>
+        <li><a target="_blank" href="https://www.facebook.com/borhanus/"><img src="Logo, Icon/facebook.png" alt=""></a>
+        </li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/borhanus/"><img src="Logo, Icon//linkedin.png"
+              alt=""></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/bushatu/"><img src="Logo, Icon//instagram.png"
+              alt=""></a></li>
+      </ul>
+      <p>©2021. ProgrammingHero. All rights reserved. Borhan Uddin</p>
+    </section>
+  </footer>
 
-
-
-
-
+  
   <script src="js/bootstrap.min.js"></script>
 </body>
 

@@ -38,7 +38,7 @@ p{
     width: 100%;
 }
 .nike-react-sec{
-    padding-top: 80px;
+    padding-top: 100px;
 }
 .nike-react-sec h1{
     font-size: 80px;
@@ -58,7 +58,7 @@ p{
 }
 
 .main-area{
-    padding: 50px 0;
+    
 }
 .main-area section{
     padding-bottom: 60px;
@@ -93,9 +93,17 @@ p{
 .cart-mobile{
     padding: 58px 0;
 }
-
-
-
+#contact{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+#contact li{
+    display: inline-block;
+    margin-right: 15px;
+}
 
 
 
